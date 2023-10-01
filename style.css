@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;  
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.nav {
+    display: flex;
+    list-style: none;
+}
+.nav li a{
+    padding: 4px 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0px 20px;
+    transition: .3s;
+}
+.nav li a:hover{
+    color: #7d2ae8;
+}
+button{
+    padding: 7px 30px;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    background-color: #7d2ae8;
+    color: whitesmoke;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+/* Home Section */
+button:hover{
+    color: #7d2ae8;
+    background-color: whitesmoke;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.name{
+    color: #7d2ae8;
+}
+.content{
+    margin-top: 20px;
+    margin-left: 80px;
+    max-width: 450px;
+    font-size: 23px;
+    color: #555;
+}
+.content p{
+   font-size: 20px; 
+}
+.profile img{
+    margin-right: 40px;
+    height: 560px;
+    width: 580px;
+    margin-bottom: 60px;
+}
+.handle{
+    margin-top: 10px;
+}
+.handle a{
+    text-decoration: none;
+    padding: 0px 5px;
+}
+.btn a{
+    text-decoration: none;
+    background-color: #7d2ae8;
+    color: whitesmoke;
+    padding: 7px 25px;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    transition: .3s;
+}
+.btn a:hover{
+    color: #7d2ae8;
+    background-color: whitesmoke;
+}
+.btn{
+    margin-top: 35px;
+}
+
