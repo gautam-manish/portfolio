@@ -1,22 +1,26 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
-body{
+
+body {
     font-family: 'Poppins', sans-serif;
-    background-color: whitesmoke;  
+    background-color: whitesmoke;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px;
 }
+
 .nav {
     display: flex;
     list-style: none;
 }
-.nav li a{
+
+.nav li a {
     padding: 4px 5px;
     color: black;
     text-decoration: none;
@@ -24,10 +28,12 @@ header{
     margin: 0px 20px;
     transition: .3s;
 }
-.nav li a:hover{
+
+.nav li a:hover {
     color: #7d2ae8;
 }
-button{
+
+button {
     padding: 7px 30px;
     border-radius: 10px;
     border: 2px solid #7d2ae8;
@@ -38,45 +44,54 @@ button{
     cursor: pointer;
     transition: .3s;
 }
+
 /* Home Section */
-button:hover{
+button:hover {
     color: #7d2ae8;
     background-color: whitesmoke;
 }
-.home{
+
+.home {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
-.name{
+
+.name {
     color: #7d2ae8;
 }
-.content{
+
+.content {
     margin-top: 20px;
     margin-left: 80px;
     max-width: 450px;
     font-size: 23px;
     color: #555;
 }
-.content p{
-   font-size: 20px; 
+
+.content p {
+    font-size: 20px;
 }
-.profile img{
+
+.profile img {
     margin-right: 40px;
     height: 560px;
     width: 580px;
     margin-bottom: 60px;
     filter: drop-shadow(7px 10px 7px #7d2ae8);
 }
-.handle{
+
+.handle {
     margin-top: 10px;
 }
-.handle a{
+
+.handle a {
     text-decoration: none;
     padding: 0px 5px;
 }
-.btn a{
+
+.btn a {
     text-decoration: none;
     background-color: #7d2ae8;
     color: whitesmoke;
@@ -85,40 +100,156 @@ button:hover{
     border: 2px solid #7d2ae8;
     transition: .3s;
 }
-.btn a:hover{
+
+.btn a:hover {
     color: #7d2ae8;
     background-color: whitesmoke;
 }
-.btn{
+
+.btn {
     margin-top: 35px;
 }
+
 /* about me */
-.about{
+.about {
     background-color: #7d2ae8;
     color: whitesmoke;
     padding-bottom: 50px;
 }
-.about h1{
+
+.about h1 {
     text-align: center;
     margin-bottom: 50px;
-    padding-top: 25px;
+    padding-top: 20px;
+    font-size: 30px;
 }
-.about1{
+
+.about1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.about1 img{
+
+.about1 img {
     height: 245px;
     width: 280px;
     border: 5px solid whitesmoke;
     border-radius: 15px;
     margin-left: 150px;
 }
-.myself{
+
+.myself {
     max-width: 500px;
     font-size: 20px;
     margin-right: 100px;
+}
+
+/* projects */
+.project {
+    color: #555;
+}
+
+.project h1 {
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 30px;
 
 }
 
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project1 {
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 4px #cfcccc;
+}
+
+.project1 img {
+    height: 200px;
+    width: 350px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.project1 a {
+    text-decoration: none;
+    background-color: #7d2ae8;
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    transition: .3s;
+    float: right;
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.project1 a:hover {
+    color: #7d2ae8;
+    background-color: whitesmoke;
+}
+
+.project2 {
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 4px #cfcccc;
+}
+
+.project2 img {
+    height: 200px;
+    width: 350px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.project2 a {
+    text-decoration: none;
+    background-color: #7d2ae8;
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    transition: .3s;
+    float: right;
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.project2 a:hover {
+    color: #7d2ae8;
+    background-color: whitesmoke;
+}
+
+.project3 {
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 4px #cfcccc;
+}
+
+.project3 img {
+    height: 200px;
+    width: 350px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.project3 a {
+    text-decoration: none;
+    background-color: #7d2ae8;
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    transition: .3s;
+    float: right;
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.project3 a:hover {
+    color: #7d2ae8;
+    background-color: whitesmoke;
+}
