@@ -12,7 +12,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
+}
+
+header img {
+    height: 70px;
+    width: 70px;
+    margin-left: 55px;
 }
 
 .nav {
@@ -253,6 +259,7 @@ button:hover {
     color: #7d2ae8;
     background-color: whitesmoke;
 }
+
 /* Contact */
 
 .contact h1 {
@@ -262,13 +269,16 @@ button:hover {
     font-size: 30px;
 }
 
-.contacts{
+.contacts {
     display: grid;
     place-items: center;
     flex-direction: column;
     display: flex;
-} 
-.names, .email, .message{
+}
+
+.names,
+.email,
+.message {
     border: none;
     margin-bottom: 10px;
     padding: 16.5px;
@@ -278,8 +288,9 @@ button:hover {
     font-size: 21px;
     color: black;
     width: 400px;
-}    
-.submit{
+}
+
+.submit {
     background-color: #7d2ae8;
     border-radius: 20px;
     color: white;
