@@ -265,12 +265,12 @@ button:hover {
 .contact h1 {
     text-align: center;
     color: #7d2ae8;
-    padding: 20px;
+    padding: 13px;
     font-size: 30px;
+    margin-top: 10px;
 }
 
 .contacts {
-    display: grid;
     place-items: center;
     flex-direction: column;
     display: flex;
@@ -297,5 +297,23 @@ button:hover {
     padding: 10px 25px;
     border: none;
     font-size: 20px;
-    float: right;
+    margin: 25px 0px;
+    
 }
+/* FOOTER */
+footer{
+    background-color: #7d2ae8;
+    text-align: center;
+    color: whitesmoke;
+}
+.footer-handle {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    margin-top: 50px;
+}
+
+.footer-handle a {
+    margin:  30px 10px 10px 10px;
+}
+
