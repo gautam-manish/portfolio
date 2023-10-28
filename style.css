@@ -290,14 +290,15 @@ button:hover {
     width: 400px;
 }
 
-.submit {
+.contacts a {
     background-color: #7d2ae8;
     border-radius: 20px;
     color: white;
-    padding: 10px 25px;
+    padding: 8px 20px;
     border: none;
     font-size: 20px;
     margin: 25px 0px;
+    text-decoration: none;
     
 }
 /* FOOTER */
