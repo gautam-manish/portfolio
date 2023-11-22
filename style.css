@@ -59,7 +59,7 @@ button:hover {
 
 .home {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -133,6 +133,7 @@ button:hover {
 .about1 {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
 }
 
